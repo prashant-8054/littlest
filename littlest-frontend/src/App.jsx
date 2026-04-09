@@ -24,6 +24,7 @@ export default function App() {
       reactions: { vibe: 0, empathize: 0, uplift: 0},
       userReacted: { vibe: false, empathize: false, uplift: false },
     };
+    
     setBeats((prev) => [nb, ...prev]);
     setMyBeats((prev) => [...prev, { ...nb }]);
     setToast(`"${word}" ${emoji || ""} shared ✦`);
