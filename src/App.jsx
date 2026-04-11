@@ -104,7 +104,7 @@ export default function App() {
         {/* Header */}
         <div className="px-[1.8rem] pt-[1.2rem] pb-[0.9rem] border-b border-black/10 bg-[#f5f0e8] flex justify-between items-baseline shrink-0">
           <div>
-            <h1 className="font-serif text-7xl font-normal text-[#1a1a1a] tracking-tight leading-none">
+            <h1 className="font-serif text-5xl font-normal text-[#1a1a1a] tracking-tight leading-none">
             Littlest
             </h1>
             <div className="font-mono text-xs text-[#999] tracking-[0.08em] mt-1">
